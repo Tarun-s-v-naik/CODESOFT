@@ -1,0 +1,51 @@
+Number Guessing Game
+
+Overview
+
+This repository contains a simple Number Guessing Game implemented in C++. The game generates a random number between 1 and 100, and the player attempts to guess it. The program provides feedback after each guess, indicating whether the guess is too high, too low, or correct. When the correct guess is made, the game ends with a congratulatory message.
+
+How It Works
+
+Random Number Generation:
+
+The program uses the rand() function seeded with the current time (srand(time(0))) to generate a random number between 1 and 100.
+
+Input and Feedback:
+
+The player inputs their guess via the console.
+
+The program compares the player's guess with the generated random number and provides feedback:
+
+If the guess is too high: "Your guess is high."
+
+If the guess is too low: "Your guess is low."
+
+If the guess is correct: "Your guess is right...! You win...!"
+
+Game End:
+
+When the correct number is guessed, the program displays the guessed number and ends the game.
+
+Gameplay
+
+The program will display a welcome message and instructions.
+
+Input guesses one at a time.
+
+Continue guessing based on the feedback until the correct number is found.
+
+The game will announce your win and display the correct number.
+
+Features
+
+Randomized Gameplay: The random number is different every time the program runs.
+
+Continuous Feedback: The program gives immediate feedback on each guess.
+
+Simple and Intuitive: Easy to understand and play
+
+To run this project locally, follow these steps:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Tarun-s-v-naik/Task1.git
