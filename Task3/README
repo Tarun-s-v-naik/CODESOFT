@@ -1,0 +1,63 @@
+XO Tic-Tac-Toe Game
+
+Overview
+
+This repository contains a console-based implementation of the classic Tic-Tac-Toe game using C++. The game allows two players to compete, taking turns to mark positions on a 3x3 board. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. If the board is filled without a winner, the game results in a draw.
+
+How It Works
+
+Player Setup:
+
+Players enter their names at the start of the game.
+
+Player 1 uses the symbol x, and Player 2 uses the symbol 0.
+
+Game Flow:
+
+The game alternates turns between the two players.
+
+Players select a position on the board by entering a number between 1 and 9 corresponding to the desired position.
+
+Win or Draw Detection:
+
+The program checks for winning conditions (three in a row horizontally, vertically, or diagonally) after each move.
+
+If the board is filled and no winner is determined, the game declares a draw.
+
+Game End:
+
+The game announces the winner or declares a draw and then exits.
+
+Features
+
+Dynamic Board Display: The board updates in real-time after each move.
+
+Input Validation: Ensures players only select valid and unoccupied positions.
+
+Win and Draw Detection: Detects winning combinations or a draw accurately.
+
+Code Structure
+
+Main Functions:
+
+main(): Handles player setup and game loop.
+
+table(): Displays the current state of the board.
+
+game(): Manages player moves and updates the board.
+
+result(): Checks for win or draw conditions.
+
+Global Variables:
+
+board[3][3]: Represents the Tic-Tac-Toe board.
+
+token: Tracks the current player's symbol (x or 0).
+
+draw: Flags if the game ends in a draw.
+
+To run this project locally, follow these steps:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Tarun-s-v-naik/Task3.git
