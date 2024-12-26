@@ -1,0 +1,53 @@
+Simple Calculator
+
+Overview
+
+This repository contains a simple calculator program implemented in C++. The calculator performs basic arithmetic operations, including addition, subtraction, multiplication, and division. It allows the user to continuously perform calculations until they choose to exit.
+
+How It Works
+
+Input Numbers:
+
+The program prompts the user to input two numbers.
+
+Operation Selection:
+
+The user selects an operation from the following options:
+
+Addition (+)
+
+Subtraction (-)
+
+Multiplication (*)
+
+Division (/)
+
+Perform Calculation:
+
+The program performs the selected operation and displays the result.
+
+If division is selected and the second number is zero, the program alerts the user and sets the result to zero.
+
+Continue or Exit:
+
+The user decides whether to continue using the calculator or exit the program by entering 1 to continue or 0 to stop.
+
+Features
+
+Basic Arithmetic Operations: Addition, subtraction, multiplication, and division.
+
+Error Handling: Prevents division by zero with a warning message.
+
+Continuous Mode: Allows the user to perform multiple calculations in a single session.
+
+Notes
+
+Ensure proper input (numbers and operation choice) to avoid unexpected behavior.
+
+The program uses an infinite loop (for(;;)) to continuously prompt the user until they choose to exit.
+
+To run this project locally, follow these steps:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Tarun-s-v-naik/Task2.git
